@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("images/bg-desktop.svg");
+}
+
+h1 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  margin-top: 25px;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.container {
+  padding: 50px;
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+}
+
+.contenant {
+  display: inline-block;
+  position: absolute;
+}
+
+.mockup {
+  margin-right: 30px;
+}
+
+.register {
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(257, 40%, 49%);
+  background-color: white;
+  border-radius: 40px;
+  padding: 15px 60px;
+  text-decoration: none;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.social {
+  right: 0;
+  bottom: 50px;
+  position: absolute;
+  display: inline-block;
+}
+
+.img-soc {
+  display: inline-block;
+  width: 40px;
+  margin: 0 5px;
+}
+
+@media only screen and (max-width: 775px) {
+  .container {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .contenant {
+  margin: 0 auto;
+  }
+
+  .mockup {
+    width: 100%;
+  }
+}
